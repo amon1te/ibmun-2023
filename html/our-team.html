@@ -1,9 +1,51 @@
-<?php 
-    include_once 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles-header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="/public/Images/Ecojeli_logo_trans.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ecojeli</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="/public/html/index.php" class="not-login">Main</a>
+                </li>
+                <li>
+                    <a class="not-login" href="/public/html/aboutUs.php">About Us</a>
+                </li>
+                <li>
+                    <a class="not-login" href="/public/html/contact.php">News</a>
+                </li>
+                <li>
+                    <a href="/public/html/login.php" target="_blank">
+                        <button type="button" class="btn">Log in</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="empty"></div>
 <link rel="stylesheet" href="/css/styles-our-team.css">
 
-        <div class="title">Our staff</div>
+        <div class="title">OUR STAFF</div>
         <div class="roles">
 
             <h1>Core Secretariat</h1>
@@ -22,6 +64,8 @@
                     </div>
                     <p class="name">Murat Almas</p>
                     <p class="sub-role">Secretary General</p>
+                    <p class="sub-role">Жмотяра</p>
+                    <p class="sub-role">bad at physics</p>
                 </div>
                 <div class="card">
                     <div class="photo">
@@ -55,9 +99,28 @@
             <h1>Educational Leaders</h1>
             <div class="educational-leaders">
                 <div class="card">
-                    <div class="photo"></div>
-                    <p class="name"></p>
-                    <p class="sub-role"></p>
+                    <div class="photo">
+                        <img src="/images/IMG_8721.jpg" alt="Orazkhan Yelnaz">
+                    </div>
+                    <p class="name">Yelnaz Orazkhan</p>
+                    <p class="sub-role">Chair of UNDP</p>
+                    <p class="sub-role">Educational Leader of Delegates</p>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="/images/IMG_8730.jpg" alt="Shapenova Aiganym">
+                    </div>
+                    <p class="name">Shapenova Aiganym</p>
+                    <p class="sub-role">Educational Leader of Chairs</p>
+                    <p class="sub-role">Co-chair of UNSC committee</p>
+                </div>
+                <div class="card">
+                    <div class="photo">
+                        <img src="/images/no-profile-pic-icon-24.jpeg" alt="Kyrmyzy Aryn">
+                    </div>
+                    <p class="name">Kyrmyzy Aryn</p>
+                    <p class="sub-role">Educational leader of Delegates</p>
+                    <p class="sub-role">Co-Chair of UNSC Committee</p>
                 </div>
             </div>
 
@@ -87,8 +150,15 @@
                     </div>
                     <p class="name">Maulenova Zarina</p>
                     <p class="sub-role">Delegate Affairs Commissioner</p>
-                    <p class="sub-role">Financial Manager</p>
-                    <p class="sub-role">Co-Chair of UNDP Committee</p>
+                </div>
+            </div>
+            <div class="delegate-affairs">
+                <div class="card">
+                    <div class="photo">
+                        <img src="/images/IMG_8737.jpg" alt="Abdikerimova Zhanetta">
+                    </div>
+                    <p class="name">Abdikerimova Zhanetta</p>
+                    <p class="sub-role">Delegate Affairs Commissioner</p>
                 </div>
             </div>
 
@@ -104,7 +174,7 @@
                 </div>
                 <div class="card">
                     <div class="photo">
-                        <img src="/images/IMG_8721.jpg" alt="Muratkyzy Elnaz">
+                        <img src="/images/no-profile-pic-icon-24.jpeg" alt="Muratkyzy Elnaz">
                     </div>
                     <p class="name">Muratkyzy Elnaz</p>
                     <p class="sub-role">SMM stories-maker</p>
@@ -115,6 +185,15 @@
                     </div>
                     <p class="name">Bolat Aisha</p>
                     <p class="sub-role">SMM stories-maker</p>
+                </div>
+            </div>
+            <div class="smm-dev">
+                <div class="card">
+                    <div class="photo">
+                        <img src="/images/IMG_8661.jpg" alt="Abdrakhmanova Ayaulym">
+                    </div>
+                    <p class="name">Abdrakhmanova Ayaulym</p>
+                    <p class="sub-role">Document Designer</p>
                 </div>
             </div>
 
@@ -129,9 +208,9 @@
                 </div>
                 <div class="card">
                     <div class="photo">
-                        <img src="/images/83bdec6b187e53e1d14a79e8e013bc60.jpg" alt="Unknown">
+                        <img src="/images/no-profile-pic-icon-24.jpeg" alt="Unknown">
                     </div>
-                    <p class="name">Unknown</p>
+                    <p class="name">Shakeyev Alen</p>
                     <p class="sub-role">Front-end Developer</p>
                 </div>
             </div>
