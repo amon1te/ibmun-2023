@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles-header.css">
+    <link rel="stylesheet" href="/css/styles-header.css">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="/public/Images/Ecojeli_logo_trans.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Ecojeli</title>
+    <title>IBeeMUN</title>
 </head>
 <body>
     <header>
@@ -26,10 +26,10 @@
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="/public/html/index.php" class="not-login">Main</a>
+                    <a href="/html/main.php" class="not-login">Main</a>
                 </li>
                 <li>
-                    <a class="not-login" href="/public/html/aboutUs.php">About Us</a>
+                    <a class="not-login" href="/html/our-team.php">About Us</a>
                 </li>
                 <li>
                     <a class="not-login" href="/public/html/contact.php">News</a>

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
     padding: 0;
@@ -9,16 +10,12 @@
     text-decoration: none;
 }
 
-body {
-    height:fit-content;
-    background-color: #f0ecec;
-}
-
 header {
-    width: 100%; 
-    height: 100px;
     background: rgb(31,68,105);
     background: linear-gradient(90deg, rgba(31,68,105,1) 0%, rgba(2,12,22,1) 100%);
+    background-repeat:no-repeat;
+    width: 100%; 
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +27,7 @@ header {
 }
 
 .logo {
-    width: 6vw;
+    width: 6rem;
     height: 100%;
     background-image: url(/images/ibmunwhite.png);
     background-size: contain;
@@ -102,7 +99,7 @@ header {
     width: 0;
     height: 100%;
     z-index: -1;
-    background-color: #1977cb;
+    background-color: #1977cb;    
     transition: 0.3s all ease-in-out 0s;
 }
 
@@ -150,7 +147,7 @@ header {
     .hamburger .line {
         width: 30px;
         height: 3px;
-        background: #043927;
+        background: white;
         margin: 6px 0;
     }
     .nav-bar {
