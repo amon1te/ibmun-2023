@@ -73,7 +73,7 @@ header {
 .btn {
     font-size: 18px;
     margin-left: 40px;
-    color: #1977cb;
+    color: rgba(2,12,22,1);
     padding: 10px 50px;
     min-width: 200px;
     cursor: pointer;
@@ -85,6 +85,7 @@ header {
     border: 0px;
     background-color: white;
     font-family: 'Readex Pro', sans-serif;
+    border-radius: 20px;
 }
 
 .btn:hover {
@@ -164,7 +165,8 @@ header {
 
     .nav-bar.active {
         height: 300px;
-        border-bottom: 2px solid black;
+        background: rgb(31,68,105);
+        background: linear-gradient(90deg, rgba(31,68,105,1) 0%, rgba(2,12,22,1) 100%);
     }
     .nav-bar ul {
         display: block;
@@ -182,6 +184,10 @@ header {
     }
     .nav-bar ul li a {
         margin-bottom: 12px;
+    }
+
+    .btn {
+        margin: 10px auto;
     }
 }
 

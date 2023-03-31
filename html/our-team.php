@@ -18,17 +18,19 @@
                 </div>
                 <div class="card">
                     <div class="photo">
+                        <img src="/images/IMG_8682.jpg" alt="Mira Sultangaliyeva">
+                    </div>
+                    <p class="name">Mira</p>
+                    <p class="name">Sultangaliyeva</p>
+                    <p class="sub-role">Chief of Staff</p>
+
+                </div>
+                <div class="card">
+                    <div class="photo">
                         <img src="/images/IMG_8740.jpg" alt="Murat Almas">
                     </div>
                     <p class="name">Murat Almas</p>
                     <p class="sub-role">Secretary General</p>
-                </div>
-                <div class="card">
-                    <div class="photo">
-                        <img src="/images/IMG_8682.jpg" alt="Mira Sultangaliyeva">
-                    </div>
-                    <p class="name">Mira Sultangaliyeva</p>
-                    <p class="sub-role">Chief of Staff</p>
                 </div>
             </div>
 
@@ -153,7 +155,7 @@
             <div class="smm-dev">
                 <div class="card">
                     <div class="photo">
-                        <img src="/images/IMG_8661.jpg" alt="Abdrakhmanova Ayaulym">
+                        <img src="/images/no-profile-pic-icon-24.jpeg" alt="Abdrakhmanova Ayaulym">
                     </div>
                     <p class="name">Abdrakhmanova Ayaulym</p>
                     <p class="sub-role">Document Designer</p>
@@ -178,5 +180,7 @@
                 </div>
             </div>
         </div>
-    </body>
+        <?php 
+    include_once 'footer.php';
+    ?>
 </html>

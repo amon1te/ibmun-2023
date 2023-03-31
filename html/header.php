@@ -32,7 +32,7 @@
                     <a class="not-login" href="/html/our-team.php">About Us</a>
                 </li>
                 <li>
-                    <a class="not-login" href="/public/html/contact.php">News</a>
+                    <a class="not-login" href="/html/announcements.php">Announcements</a>
                 </li>
                 <li>
                     <a href="/public/html/login.php" target="_blank">
@@ -42,4 +42,5 @@
             </ul>
         </nav>
     </header>
+    <script src="/js/main.js"></script>
     <div class="empty"></div>

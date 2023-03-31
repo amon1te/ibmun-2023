@@ -63,7 +63,7 @@
 </div>
 
 <div class="importance">
-    <h1>Importance</h1>
+    <h1>Importance of Our Campaign</h1>
     <div class="group">
         <div class="first">
             <div class="img-1"></div>
@@ -98,7 +98,7 @@
 <div class="comment">
     <div class="side-1">
         <h1>Leave a comment</h1>
-        <p>Your comment is very important to us as it helps us work on our mistakes and provide you with a better service.</p>
+        <p>Your feedback is important to us.</p>
     </div>
     <div class="side-2">
         <p>Email:</p>
