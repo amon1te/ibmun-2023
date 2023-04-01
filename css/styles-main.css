@@ -180,9 +180,13 @@ body {
 
 .side-2 input {
     width: 70%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    height: 2rem;
 }
 
 .side-2 textarea{
+    font-family: "Raleway", sans-serif;
     background:white;
     min-height: 50px;
     height: 100px;
@@ -199,7 +203,7 @@ body {
     height: 30px;
     align-items: center;
     border: none;
-    border-radius: 20%;
+    border-radius: 20px;
 }
 
 @media (max-width: 767px) {
