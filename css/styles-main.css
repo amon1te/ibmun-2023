@@ -96,7 +96,7 @@ body {
 
 .importance {
     width: 80%;
-    margin: 100px auto;
+    margin: 200px auto;
     text-align: center;
     color: white;
 }
@@ -108,13 +108,15 @@ body {
     text-align: center;
 }
 
+
+
 .group {
     display: flex;
 
 }
 
 .group .title {
-    font-size: 24px;
+    font-size: 34px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
@@ -130,7 +132,7 @@ body {
 }
 
 .group-2 .title {
-    font-size: 24px;
+    font-size: 34px;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
 }
@@ -138,6 +140,7 @@ body {
 .group-2 .text-1 {
     font-family: "Raleway", sans-serif;
     padding: 40px;
+    font-size: clamp(14px, 2vw, 18px);
 }
 
 
@@ -202,8 +205,15 @@ body {
     width:80px;
     height: 30px;
     align-items: center;
-    border: none;
+    background-color: transparent;
+    border: 1px solid white;
     border-radius: 20px;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: black;
+
 }
 
 @media (max-width: 767px) {
@@ -234,14 +244,7 @@ body {
         color: white;
         width: 100%;
     }
-    .submit-btn {
-        width:80px;
-        height: 30px;
-        align-items: center;
-        border: none;
-        border-radius: 20%;
 
-    }
     .side-2 textarea{
         background:white;
         min-height: 50px;
